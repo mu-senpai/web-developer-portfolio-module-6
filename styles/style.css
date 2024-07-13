@@ -242,3 +242,34 @@ nav li a{
     text-align: left;
 }
 
+.resume-section{
+    max-width: 1280px;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.resume-container{
+    display: flex;
+    gap: 19.2px;
+    margin: 66.4px 184px 40px;
+}
+
+.edu-exp-title{
+    margin: 24px 0 8px;
+}
+
+.edu-exp-sub-title{
+    margin-bottom: 16px;
+}
+
+.edu-exp-description{
+    margin-bottom: 24px;
+}
+
+hr{
+    color: #D1D1D1;
+}
+
+#btn-resume{
+    text-align: center;
+}
