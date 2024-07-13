@@ -14,7 +14,7 @@
 }
 
 .header{
-    width: 1280px;
+    max-width: 1280px;
     margin: 0;
     border-top: 1px solid #FFF8F3;
     background-color: #FFF8F3;
@@ -143,10 +143,15 @@ nav li a{
 }
 
 .about-me-section{
-    max-width: 912px;
-    margin: 98.4px auto;
+    max-width: 1280px;
+}
+
+.about-me-box-outer{ 
+    max-width: 912px;                      
+    margin: 104px auto;
+    /* padding: 104.8px 124.8px; */
     background-color: #FFF8F3;
-    border: 1px solid black;
+    border: 1px solid #FFF8F3;
 }
 
 .about-me-box{
@@ -189,3 +194,51 @@ nav li a{
     text-align: center;
     /* margin-left: 40px; */
 }
+
+.what-i-do-section{
+    max-width: 1280px;
+    /* margin: 0 184px; */
+    background-color: white;
+    border: 1px solid white;
+}
+
+.what-i-do-description{
+    margin: 0 276px;
+    margin-bottom: 40px;
+}
+
+#skills-container{
+    margin: 0 104px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 19.2px;
+    margin-bottom: 104px;
+}
+
+.skills{
+    /* width: 213.6px;
+    height: 301.6px; */
+    padding: 30px;
+    /* border: 1px solid black; */
+    border-radius: 4px;
+    box-shadow: 0px 4.8px 40px 0 rgba(0, 0, 0, 6%);
+}
+
+.skills img{
+    width: 35.2px;
+    height: 35.2px;
+    margin-bottom: 24px;
+}
+
+.skill-title{
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.skill-description{
+    text-align: left;
+}
+
