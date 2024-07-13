@@ -280,8 +280,11 @@ hr{
 .footer{
     max-width: 1280px;
     margin-top: 90.4px;
-    padding: 104px 184px;
     border-top: 1px solid #FFF8F3;
+}
+
+.footer-flex{
+    margin: 104px 184px;
     display: flex;
     flex-direction: row;
     gap: 93.6px;
