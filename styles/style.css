@@ -17,11 +17,14 @@
     max-width: 1280px;
     margin: 0;
     border-top: 1px solid #FFF8F3;
-    background-color: #FFF8F3;
     background-image: url(../assets/developer.png), url(../assets/header_bg.png);
     background-repeat: no-repeat;
     background-position: left, bottom right;
     background-size: contain, 52%;
+}
+
+.secondary-bg{
+    background-color: #FFF8F3;
 }
   
 .text-primary{
@@ -272,4 +275,44 @@ hr{
 
 #btn-resume{
     text-align: center;
+}
+
+.footer{
+    max-width: 1280px;
+    margin-top: 90.4px;
+    padding: 104px 184px;
+    border-top: 1px solid #FFF8F3;
+    display: flex;
+    flex-direction: row;
+    gap: 93.6px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.footer-description{
+    font-size: 12.8px;
+    margin: 16px auto 24px;
+}
+
+.footer-column a{
+    margin-right: 19.2px;
+}
+
+.footer-column input[type="text"], input[type="email"]{
+    width: 368.8px;
+    height: 30px;
+    margin-top: 19.2px;
+    border: none;
+    border-radius: 4px;
+    padding: 14.4px 48px 14.4px 24px;
+}
+
+.footer-column textarea{
+    width: 440px;
+    height: 110px;
+    margin: 19.2px auto;
+    border: none;
+    border-radius: 4px;
 }
