@@ -14,7 +14,7 @@
 }
 
 .header{
-    max-width: 1280px;
+    max-width: 80rem;
     margin: 0;
     border-top: 1px solid #FFF8F3;
     background-image: url(../assets/developer.png), url(../assets/header_bg.png);
@@ -47,8 +47,8 @@
     background-color: #FD6E0A;
     color: white;
     font-weight: 700;
-    font-size: 16px;
-    padding: 14.8px 28.4px;
+    font-size: 1rem;
+    padding: 0.9rem 1.78rem;
     border-radius: 4px;
     border: none;
 }
@@ -57,8 +57,8 @@
     background-color: white;
     color: #FD6E0A;
     font-weight: 700;
-    font-size: 16px;
-    padding: 15.2px 18.4px 14.4px 19.2px;
+    font-size: 1rem;
+    padding: 0.95rem 1.15rem 0.9rem 1.2rem;
     border-radius: 4px;
     border: 1px solid #FD6E0A;
 }
@@ -67,11 +67,11 @@
     background-color: #FD6E0A;
     color: white;
     font-weight: 700;
-    font-size: 16px;
-    padding: 15.2px 13.6px 14.4px;
+    font-size: 1rem;
+    padding: 0.95rem 0.85rem 0.9rem;
     border-radius: 4px;
     border: none;
-    margin-right: 24px;
+    margin-right: 1.5rem;
 }
 
 /* Nav Styles */
@@ -80,19 +80,19 @@ nav{
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    margin: 35.2px 204.8px 0 160px;
+    margin: 2.2rem 12.8rem 0 16rem;
 }
 
 .nav-title{
     font-weight: 800;
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 nav ul{
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    gap: 50px;
+    gap: 3.125rem;
 }
 
 nav ul li{
@@ -101,7 +101,7 @@ nav ul li{
 
 nav li a{
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .banner{
@@ -109,12 +109,12 @@ nav li a{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 123.2px 51.2px 0 163.2px;
+    margin: 7.7rem 3.2rem 0 10.2rem;
 }
 
 #image-container{
-    width: 467.2px;
-    height: 540.8px;
+    width: 28.88rem;
+    height: 33.8rem;
     /* border: 1px solid black;   */
 }
 
@@ -124,58 +124,70 @@ nav li a{
 }
 
 .banner-content{
-    max-width: 468px;
+    max-width: 29.25rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .banner-greetings{
     font-weight: 600;
-    font-size: 36px;
-    margin-bottom: 4px;
+    font-size: 2.25rem;
+    margin-bottom: 0.25rem;
 }
 
 .banner-title{
     font-weight: 700;
-    font-size: 68px;
-    margin-bottom: 16px;
+    font-size: 4.25rem;
+    margin-bottom: 1rem;
 }
 
 .banner-description{
     font-weight: 400;
-    font-size: 14.4px;
-    margin-bottom: 24px;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
 }
 
 .about-me-section{
-    max-width: 1280px;
+    max-width: 80rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-me-box-outer{ 
-    max-width: 912px;                      
-    margin: 104px auto;
+    max-width: 57rem;                      
+    margin: 6.5rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     /* padding: 104.8px 124.8px; */
     background-color: #FFF8F3;
     border: 1px solid #FFF8F3;
 }
 
 .about-me-box{
-    max-width: 661.6px;
-    margin: 104.8px 124.8px;
+    max-width: 41.35rem;
+    margin: 6.55rem 7.8rem;
+    display: flex;
+    flex-direction: column;
     background-color: white;
     border: 1px solid black;
 }
 
 .about-me-heading{
     font-weight: bold;
-    font-size: 28px;
+    font-size: 1.75rem;
     text-align: center;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 
 .about-me-description{
     font-weight: 400;
-    font-size: 14.4px;
+    font-size: 0.9rem;
     text-align: center;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 
 .about-me-flex{
@@ -186,59 +198,62 @@ nav li a{
 
 .about-me-title{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
     /* margin: 40px; */
 }
 
 .about-me-info{
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
     /* margin-left: 40px; */
 }
 
 .what-i-do-section{
-    max-width: 1280px;
-    /* margin: 0 184px; */
+    /* max-width: 1280px; */
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: white;
     border: 1px solid white;
 }
 
 .what-i-do-description{
-    margin: 0 276px;
-    margin-bottom: 40px;
+    max-width: 45.45rem;
+    /* margin: 0 17.25rem; */
+    margin-bottom: 2.5rem;
 }
 
 #skills-container{
-    margin: 0 104px;
+    margin: 0 6.5rem;
     /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     gap: 19.2px;
-    margin-bottom: 104px;
+    margin-bottom: 6.5rem;
 }
 
 .skills{
-    /* width: 213.6px;
-    height: 301.6px; */
-    padding: 30px;
-    /* border: 1px solid black; */
-    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    padding: 1.875rem;
+    border-radius: 0.25rem;
     box-shadow: 0px 4.8px 40px 0 rgba(0, 0, 0, 6%);
 }
 
 .skills img{
-    width: 35.2px;
-    height: 35.2px;
-    margin-bottom: 24px;
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-bottom: 1.5rem;
 }
 
 .skill-title{
     text-align: left;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 
 .skill-description{
@@ -246,27 +261,30 @@ nav li a{
 }
 
 .resume-section{
-    max-width: 1280px;
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
     background-color: white;
     border: 1px solid white;
 }
 
 .resume-container{
     display: flex;
-    gap: 19.2px;
-    margin: 66.4px 184px 40px;
+    flex-direction: row;
+    gap: 1.2rem;
+    margin: 4.15rem 11.5rem 2.5rem;
 }
 
 .edu-exp-title{
-    margin: 24px 0 8px;
+    margin: 1.5rem 0 0.5rem;
 }
 
 .edu-exp-sub-title{
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 
 .edu-exp-description{
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 
 hr{
@@ -275,48 +293,132 @@ hr{
 
 #btn-resume{
     text-align: center;
-    margin-bottom: 90.4px;
+    margin-bottom: 5.65rem;
 }
 
 .footer{
-    max-width: 1280px;
+    max-width: 80rem;
     margin: 0;
     border: 1px solid #FFF8F3;
 }
 
 .footer-flex{
-    margin: 104px 184px;
+    margin: 6.5rem 11.5rem;
     display: flex;
     flex-direction: row;
-    gap: 93.6px;
+    gap: 5.85rem;
 }
 
 .footer-column{
     width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-description{
-    font-size: 12.8px;
-    margin: 16px auto 24px;
+    font-size: 0.8rem;
+    margin: 1rem auto 2rem;
 }
 
 .footer-column a{
-    margin-right: 19.2px;
+    margin-right: 1.2rem;
 }
 
 .footer-column input[type="text"], input[type="email"]{
-    width: 368.8px;
-    height: 30px;
-    margin-top: 19.2px;
+    width: 23.05rem;
+    height: 1.875rem;
+    margin-top: 1.2rem;
     border: none;
     border-radius: 4px;
-    padding: 14.4px 48px 14.4px 24px;
+    padding: 0.9rem 3rem 0.9rem 1.5rem;
 }
 
 .footer-column textarea{
-    width: 440px;
-    height: 110px;
-    margin: 19.2px auto;
+    width: 27.5rem;
+    height: 6.875rem;
+    margin: 1.2rem auto;
     border: none;
     border-radius: 4px;
+}
+
+/* Responsive media query */
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px){
+    nav{
+        margin: 2rem 1.5rem 0;
+    }
+    nav ul{
+        gap: 1rem;
+    }
+    .header{
+        background-image: url(../assets/developer.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: contain;
+    }
+    .banner{
+        flex-direction: column;
+        gap: 2.5rem;
+        margin: 3rem 2rem 1rem;
+    }
+    #image-container{
+        width: 26.5rem;
+        height: 31rem;
+    }
+    .about-me-box-outer{
+        margin: 4rem auto;
+    }
+    .about-me-box{
+        max-width: 15rem;
+        margin: 3rem 4rem;
+    }
+    .about-me-heading{
+        margin-bottom: 1rem;
+    }    
+    .about-me-description{
+        margin-bottom: 1rem;
+    }
+    .about-me-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .what-i-do-description{
+        max-width: 45.45rem;
+        margin: 0 2rem;
+        margin-bottom: 1.75rem;
+    }
+    #skills-container{
+        flex-direction: column;
+        margin: 0 2rem;
+        margin-bottom: 4rem;
+    }
+    .resume-container{
+        flex-direction: column;
+        margin: 2rem 2rem 2.5rem
+    }
+    .footer-flex{
+        flex-direction: column;
+        margin: 4rem 3rem;
+        gap: 3rem;
+    }
+    .footer-description{
+        font-size: 0.8rem;
+        margin: 0.5rem auto 1rem auto;
+    }
+    .footer-column a{
+        margin-right: 0rem;
+    }
+    .footer-column input[type="text"], input[type="email"]{
+        width: 16rem;
+        height: 1.5rem;
+    }
+    .footer-column textarea{
+        width: 20.5rem;
+    }
 }
